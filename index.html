@@ -1,40 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Tea House</title>
-      <!-- Google fonts cdn Start -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-      <!-- Google fonts cdn End -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea House</title>
+    <!-- Google fonts cdn Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google fonts cdn End -->
 
-       <!-- Font Awsome Cdn Start -->
-      <script src="https://kit.fontawesome.com/bb3291d151.js" crossorigin="anonymous">
+    <!-- Font Awsome Cdn Start -->
 
-      </script>
-       <!-- Font Awsome Cdn End -->
+    <script
+      src="https://kit.fontawesome.com/bb3291d151.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Font Awsome Cdn End -->
 
-       <!-- Tailwind Cdn Start -->
+    <!-- Tailwind Cdn Start -->
 
-       <script src="https://cdn.tailwindcss.com"></script>
-       <script>
-            tailwind.config = {
-              theme: {
-                extend: {
-                  colors: {
-                    clifford: '#da373d',
-                  },
-                },
-              },
-            }
-          </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Tailwind Cdn End -->
+  </head>
+  <body>
+    <!-- Main Container Start -->
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+      <!-- Header Section Start -->
 
-       <!-- Tailwind Cdn End -->
+      <header class="flex pt-10 mb-20">
+        <!-- Text-Content -->
+        <div>
+          <h1 class="text-5xl md:text-7xl">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <br />
+          <p class="text-[#777777] w-3/4">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <br />
+          <button
+            class="bg-gradient-to-r from-orange-500 to-red-600 px-5 py-4 rounded-lg text-[#FFFFFF] font-bold text-xl"
+          >
+            Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
+          </button>
+        </div>
+        <!-- Image Content --> 
+         <div class="relative">
+            <!-- Image -->
+             <div>
+                  <img class="w-full" src="images/banner.png" alt="">
+             </div>
+             <!-- Card -->
+              <div class=" absolute flex items-center bg-[#FFFFFF] shadow-xl px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-28">
+                  <!-- Icon -->
+                   <div><i class="fa-solid fa-star text-2xl text-amber-400"></i></div>
+                   <!-- Text -->
+                    <div class="ml-2">
+                        <h2 class="lg:text-2xl font-bold">5.00</h2>
+                        <p class="text-[#A4A4A4]">Trust Pilot Ratings</p>
+                    </div>
+              </div>
+         </div>
+        
+      </header>
 
-</head>
-<body>
-      
-</body>
+      <!-- Header Section End -->
+    </main>
+    <!-- Main Container End -->
+  </body>
 </html>
